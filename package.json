@@ -1,0 +1,19 @@
+{
+  "name": "tresdin",
+  "version": "0.1.0",
+  "description": "Legion Commander",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p ."
+  },
+  "bin": "bin/cli.js",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "consola": "^2.10.1",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

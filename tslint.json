@@ -1,0 +1,15 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "no-implicit-dependencies": [true, "dev"]
+    },
+    "linterOptions": {
+        "exclude": [
+            "**/bin/*",
+            "**/build/*",
+            "**/config/*",
+            "**/coverage/*",
+            "**/node_modules/*"
+        ]
+    }
+}
